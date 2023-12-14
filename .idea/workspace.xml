@@ -36,7 +36,6 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/pavlospoulos/Desktop/join_front_end/project",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,6 +45,8 @@
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "731b886d80d2ea138da54d30f43b2005",
+    "ts.external.directory.path": "/Users/pavlospoulos/Desktop/join_front_end/project/frontend/join-app/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -79,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702498633690</updated>
       <workItem from="1702498634932" duration="7494000" />
+      <workItem from="1702593398107" duration="1904000" />
     </task>
     <servers />
   </component>

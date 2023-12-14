@@ -11,6 +11,7 @@ import jakarta.validation.Valid;
 import jdk.jfr.ContentType;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -35,7 +36,7 @@ public class PostControllerImpl implements IPostController{
     @GetMapping
     public ResponseEntity<List<PostDTO>> getAllPosts() {
         return ResponseEntity.ok().body(
-                postRepository.findAll().stream().map(postMapper::postToPostDTO)
+                postRepository.findAll(Sort.by(Sort.Direction.DESC, "createdDate")).stream().map(postMapper::postToPostDTO)
                         .toList());
     }
 
