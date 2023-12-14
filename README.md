@@ -8,24 +8,24 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- Java 8 or higher
+- Java 17 or higher
 - Node.js and npm
 - Angular CLI
 
 ### Installing
 
-1. Clone the repository: `git clone https://github.com/yourusername/your-repo-name.git`
+1. Clone the repository: `git clone https://github.com/PavlosPo/full-stack-join-application.git`
 2. Navigate to the `backend` directory and run `mvn clean install` to build the Java backend.
 3. Navigate to the `frontend/join-app` directory and run `npm install` to install the necessary dependencies for the Angular frontend.
 4. Run `ng serve` to start the Angular development server.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system.
+Navigate to the backend and run the tests in the test subfolder.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system.
+Deployment in progress yet.. 
 
 ## Built With
 
@@ -34,13 +34,11 @@ Add additional notes about how to deploy this on a live system.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+This project created by me.
 
 ## Authors
 
-- Your Name - Initial work - [YourUsername](https://github.com/yourusername)
-
-See also the list of [contributors](https://github.com/yourusername/your-repo-name/contributors) who participated in this project.
+- Pavlos - Back and Front End - [Pavlos Poulos](https://github.com/PavlosPo)
 
 ## License
 
