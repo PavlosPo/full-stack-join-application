@@ -1,0 +1,24 @@
+.card {
+  background-color: #101010; /* Dark, but not pure black */
+  color: #21F012; /* Matrix green */
+  transition: background-color 0.5s ease; /* Add transition animation */
+}
+
+.card:hover {
+  background-color: #a00000; /* Lighten up to grey on hover */
+  color: #fff; /* Matrix green */
+}
+
+.card .btn-primary {
+  background-color: #21F012; /* Matrix green */
+  border-color: #21F012; /* Matrix green */
+}
+
+.card .btn-primary:hover {
+  background-color: #17B00B; /* Darker green on hover */
+}
+
+.card textarea {
+  background-color: #202020; /* Light grey */
+  color: #21F012; /* Matrix green */
+}

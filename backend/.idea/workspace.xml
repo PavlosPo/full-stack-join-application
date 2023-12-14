@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f0efc132-9936-4bb3-80fd-e0029bad855f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/social/join/config/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/social/join/config/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/social/join/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/social/join/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/social/join/config/UserAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/social/join/config/UserAuthenticationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/social/join/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/social/join/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/social/join/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/social/join/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/social/join/controllers/PostControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/social/join/controllers/PostControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/social/join/controllers/UserControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/social/join/controllers/UserControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/social/join/dtos/CredentialsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/social/join/dtos/CredentialsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/social/join/dtos/SignUpDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/social/join/dtos/SignUpDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/social/join/dtos/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/social/join/dtos/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/social/join/dtos/UserUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/social/join/dtos/UserUpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/social/join/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/social/join/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/social/join/repositories/IUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/social/join/repositories/IUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/social/join/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/social/join/service/UserServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Record" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="developer_branch" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2UkaxXFijdacS3SVU72rdsxD6C3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;experimental&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pavlospoulos/IdeaProjects/join/src/main/java/com/social/join/dtos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;731b886d80d2ea138da54d30f43b2005&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.social.join.config" />
+      <recent name="com.social.join.exceptions" />
+      <recent name="com.social.join.dtos" />
+      <recent name="com.social.join.controllers" />
+      <recent name="com.social.join.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/social/join/dtos" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.social.join.service" />
+      <recent name="com.social.join.controllers" />
+      <recent name="com.social.join.repositories" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.social.join.controllers" />
+      <recent name="com.social.join.mappers" />
+      <recent name="com.social.join.repositories" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.JoinApplication">
+    <configuration name="PostControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="join" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.social.join.dtos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.social.join.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.social.join.controllers.PostControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostControllerTest.testCreatePost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="join" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.social.join.dtos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.social.join.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.social.join.controllers.PostControllerTest" />
+      <option name="METHOD_NAME" value="testCreatePost" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostControllerTest.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="join" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.social.join.dtos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.social.join.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.social.join.controllers.PostControllerTest" />
+      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostControllerTest.testDeletePost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="join" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.social.join.dtos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.social.join.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.social.join.controllers.PostControllerTest" />
+      <option name="METHOD_NAME" value="testDeletePost" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.social.join in join" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="join" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.social.join.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.social.join" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="join" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.social.join.JoinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.social.join in join" />
+        <item itemvalue="JUnit.PostControllerTest" />
+        <item itemvalue="JUnit.PostControllerTest.testDeletePost" />
+        <item itemvalue="JUnit.PostControllerTest.testCreatePost" />
+        <item itemvalue="JUnit.PostControllerTest.testCreateUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0efc132-9936-4bb3-80fd-e0029bad855f" name="Changes" comment="" />
+      <created>1693486281737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693486281737</updated>
+      <workItem from="1693486283201" duration="287000" />
+      <workItem from="1693570799165" duration="10068000" />
+      <workItem from="1693840081719" duration="2037000" />
+      <workItem from="1695625514866" duration="418000" />
+      <workItem from="1695626442104" duration="33360000" />
+      <workItem from="1695728880103" duration="6405000" />
+      <workItem from="1695794980274" duration="14365000" />
+      <workItem from="1696249627207" duration="993000" />
+      <workItem from="1698910087101" duration="133000" />
+      <workItem from="1698923483786" duration="988000" />
+      <workItem from="1698938258368" duration="483000" />
+      <workItem from="1698938768321" duration="26450000" />
+      <workItem from="1699042684482" duration="3025000" />
+      <workItem from="1699093429807" duration="5545000" />
+      <workItem from="1699109894018" duration="2294000" />
+      <workItem from="1699180819016" duration="10434000" />
+      <workItem from="1699195586528" duration="2660000" />
+      <workItem from="1699298309966" duration="20769000" />
+      <workItem from="1699963156785" duration="2959000" />
+      <workItem from="1699981809012" duration="2585000" />
+      <workItem from="1699994782070" duration="4608000" />
+      <workItem from="1700209447719" duration="3098000" />
+      <workItem from="1700514346350" duration="5117000" />
+      <workItem from="1700682048100" duration="22412000" />
+      <workItem from="1701075312389" duration="7537000" />
+      <workItem from="1701157879346" duration="2169000" />
+      <workItem from="1701198559026" duration="1629000" />
+      <workItem from="1701282642890" duration="2799000" />
+      <workItem from="1701332678599" duration="5419000" />
+      <workItem from="1701543530268" duration="23000" />
+      <workItem from="1701593445567" duration="2113000" />
+      <workItem from="1701618693386" duration="1041000" />
+      <workItem from="1701714656654" duration="14564000" />
+      <workItem from="1701853342981" duration="463000" />
+      <workItem from="1701859852612" duration="1636000" />
+      <workItem from="1701874772582" duration="27969000" />
+      <workItem from="1702287740397" duration="775000" />
+      <workItem from="1702288754007" duration="749000" />
+      <workItem from="1702290122164" duration="10172000" />
+      <workItem from="1702483328100" duration="5385000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="jakarta.validation.UnexpectedTypeException" package="jakarta.validation" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="17" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.PropertyValueException" package="org.hibernate" />
+          <option name="timeStamp" value="19" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.auth0.jwt.exceptions.TokenExpiredException" package="com.auth0.jwt.exceptions" />
+          <option name="timeStamp" value="20" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jrt://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.8.1/Contents/Home!/java.base/java/lang/Object.class</url>
+          <line>15</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.social.join.entities.Comment" memberName="usersLikedIt" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

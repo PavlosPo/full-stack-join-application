@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  background-color: #101010  !important; /* Dark, but not pure black */
+  color: #21F012 !important; /* Matrix green */
+  font-family: 'Courier New', monospace !important; /* Monospace font similar to Matrix */
+}
+
+a {
+  color: #21F012; /* Matrix green */
+}
+
+button {
+  background-color: #21F012 !important; /* Matrix green */
+  color: #101010 !important; /* Dark, but not pure black */
+  border-color: red !important;
+}
+
+button:hover {
+  background-color: #17B00B !important; /* Darker green on hover */
+}

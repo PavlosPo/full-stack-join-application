@@ -1,0 +1,61 @@
+<!-- <div class="container text-center col-12">
+  <app-buttons
+    (loginEvent)="showComponent('login') "
+    (logoutEvent)="showComponent('welcome')" (logoutEvent)="onLogout($event)"
+    [isLoggedIn]="currentUser != null "
+  />
+
+  <div>
+	  <app-welcome-content *ngIf="componentToShow == 'welcome'"/>
+
+    <div *ngIf="errorMessage">
+      <app-error-message [message]="errorMessage"></app-error-message>
+    </div>
+
+	  <app-login-form *ngIf="componentToShow == 'login'" (onSubmitLoginEvent)="onLogin($event)" (onSubmitRegisterEvent)="onRegister($event)"/>
+  </div>
+	
+  <div *ngIf="componentToShow == 'isLoggedIn'">
+    <app-create-post /> 
+    <app-list-posts />
+    <app-profile />
+  </div>
+
+  
+
+</div> -->
+
+<div class="container text-center">
+  <app-buttons
+  (loginEvent)="showComponent('login') "
+  (logoutEvent)="showComponent('welcome')" (logoutEvent)="onLogout()"
+  [isLoggedIn]="isLoggedIn"
+  />
+
+  <div class="row justify-content-center">
+      <app-welcome-content *ngIf="componentToShow == 'welcome'"/>
+
+      <div *ngIf="errorMessage" class="mt-3">
+        <app-error-message [message]="errorMessage"></app-error-message>
+      </div>
+
+      <app-login-form *ngIf="componentToShow == 'login'" (onSubmitLoginEvent)="onLogin($event)" (onSubmitRegisterEvent)="onRegister($event)"/>
+  </div>
+  
+  <div *ngIf="componentToShow == 'isLoggedIn'" class="mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div>
+          <app-profile />
+        </div>
+      </div>
+      <div class="col-md-4">
+        <app-create-post /> 
+      </div>
+      <div class="row col-md-4">
+        <app-list-posts />
+      </div>
+    </div>
+    
+  </div>
+</div>

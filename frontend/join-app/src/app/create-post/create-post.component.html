@@ -1,0 +1,8 @@
+<!-- make this inside a card element using bootstrap classes to feel like a creating post element like Facebook -->
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Create Post</h5>
+    <textarea class="form-control" rows="3" placeholder="What's on your mind?" [(ngModel)]="postContent"></textarea>
+    <button class="btn btn-primary mt-2" (click)="onPost()">Post</button>
+  </div>
+</div>

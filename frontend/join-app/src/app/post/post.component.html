@@ -1,0 +1,19 @@
+<div *ngIf="post; else nodata" class="card" style="width: 18rem">
+  <!-- <div class="card-header">
+    Quote of the Day
+  </div> -->
+  <div class="card-body">
+      <h5 class="card-title">{{ post.userCreated.username }}</h5>
+      <p class="card-text">{{ post.content }}</p>
+      <!-- <a href="#" class="btn btn-outline-primary " role="button">Like</a> -->
+      <div class="d-grid gap-2">
+        <!-- <button class="btn btn-outline-primary" (click)="onLikePressed()" type="button">Like</button> -->
+        <button class="btn btn-outline-primary" type="button">Like</button>
+      </div>
+  </div>
+</div>
+
+
+<ng-template #nodata>
+  <div class="alert alert-danger">No person data!</div>
+</ng-template>

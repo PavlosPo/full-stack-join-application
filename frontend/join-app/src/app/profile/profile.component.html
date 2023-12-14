@@ -1,0 +1,23 @@
+<p>Profile Works</p>
+
+<div class="card text-center" style="width: 18rem;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbTV5zDc6-zVWOeTGi6E4nyb6K5_ygUeTh0xOfNLA__5vmF5dSjFJJKSe1THwutIIsIAU&usqp=CAU" class="card-img-top" alt="User Image">
+  <div class="card-body">
+    <h5 class="card-title">{{currentUser?.firstname}} {{currentUser?.lastname}}</h5>
+    <p class="card-text">{{currentUser?.email}}</p>
+    <a (click)="showComponentToEditProfile()" class="btn btn-primary">Edit Profile</a>
+  </div>
+  <div *ngIf="componentToShow == 'editProfile'">
+    <app-edit-profile 
+    (errorMessage)="handleErrorMessage($event)" 
+    (successMessage)="handleSuccessMessage($event)">
+    </app-edit-profile>
+  </div>
+  <div *ngIf="componentToShow == 'successMessage'">
+    <app-success-message [message]="successMessage"></app-success-message>
+  </div>
+
+  <div *ngIf="componentToShow == 'errorMessage'">
+    <app-error-message [message]="errorMessage"></app-error-message>
+  </div>
+</div>

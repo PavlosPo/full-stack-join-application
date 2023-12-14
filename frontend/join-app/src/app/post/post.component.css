@@ -1,0 +1,24 @@
+.card {
+  background-color: #101010; /* Dark, but not pure black */
+  color: #21F012; /* Matrix green */
+  transition: background-color 0.5s ease; /* Add transition animation */
+}
+
+.card:hover {
+  background-color: #a00000; /* Lighten up to grey on hover */
+  color: #fff; /* Matrix green */
+}
+.card .btn-outline-primary {
+  color: #21F012; /* Matrix green */
+  border-color: #21F012; /* Matrix green */
+}
+
+.card .btn-outline-primary:hover {
+  background-color: #21F012; /* Matrix green */
+  color: #101010; /* Dark, but not pure black */
+}
+
+.alert-danger {
+  background-color: #101010; /* Dark, but not pure black */
+  color: #21F012; /* Matrix green */
+}

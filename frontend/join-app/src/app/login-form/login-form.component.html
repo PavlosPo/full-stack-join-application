@@ -1,0 +1,69 @@
+<div class="row justify-content-center">
+	<div class="col-4">
+	<ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+	  <div >
+		<li class="nav-item" role="presentation">
+	    <button [ngClass]="active == 'login' ? 'nav-link active' : 'nav-link'" id="tab-login"
+	      (click)="onLoginTab()" >Login</button>
+	  </li>
+	</div>
+	<div>
+	<li class="nav-item" role="presentation">
+	    <button [ngClass]="active == 'register' ? 'nav-link active' : 'nav-link'" id="tab-register"
+	      (click)="onRegisterTab()" >Register</button>
+	  </li>
+	</div>  
+	</ul>
+
+	<div class="tab-content">
+	  <div [ngClass]="active == 'login' ? 'tab-pane fade show active' : 'tab-pane fade'">
+	    <form (ngSubmit)="onSubmitLogin()" #loginForm="ngForm">
+
+	      <div class="form-outline mb-4">
+	        <input type="username" id="username" name= "username" class="form-control" [(ngModel)]="username" />
+	        <label class="form-label" for="username">Username</label>
+	      </div>
+
+	      <div class="form-outline mb-4">
+	        <input type="password" id="loginPassword" name="password" class="form-control" [(ngModel)]="password" />
+	        <label class="form-label" for="loginPassword">Password</label>
+	      </div>
+
+	      <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+	    </form>
+	  </div>
+	  <div [ngClass]="active == 'register' ? 'tab-pane fade show active' : 'tab-pane fade'">
+	    <form (ngSubmit)="onSubmitRegister()" #registerForm="ngForm">
+
+	      <div class="form-outline mb-4">
+	        <input type="text" id="firstname" name="firstname" class="form-control" [(ngModel)]="firstname" />
+	        <label class="form-label" for="firstname">First name</label>
+	      </div>
+
+	      <div class="form-outline mb-4">
+	        <input type="text" id="lastname" name="lastname" class="form-control" [(ngModel)]="lastname" />
+	        <label class="form-label" for="lastname">Last name</label>
+	      </div>
+
+	      <div class="form-outline mb-4">
+	        <input type="text" id="username" name="username" class="form-control" [(ngModel)]="username" />
+	        <label class="form-label" for="username">Username</label>
+	      </div>
+
+	      <div class="form-outline mb-4">
+	        <input type="password" id="registerPassword" name="password" class="form-control" [(ngModel)]="password" />
+	        <label class="form-label" for="registerPassword">Password</label>
+	      </div>
+
+				<div class="form-outline mb-4">
+	        <input type="email" id="registerEmail" name="email" class="form-control" [(ngModel)]="email" />
+	        <label class="form-label" for="registerEmail">Email</label>
+	      </div>
+
+	      <button type="submit" class="btn btn-primary btn-block mb-3">Sign in</button>
+	    </form>
+	  </div>
+	</div>
+	</div>
+</div>

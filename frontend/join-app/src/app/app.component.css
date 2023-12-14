@@ -1,0 +1,13 @@
+.container {
+  padding: 10px;
+  border: dashed 2px black;
+  }
+  h1 {
+  color: green;
+  }
+  p {
+  background-color: indigo;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  }
