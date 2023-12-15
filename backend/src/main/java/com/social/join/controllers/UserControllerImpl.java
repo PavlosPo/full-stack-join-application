@@ -1,5 +1,6 @@
 package com.social.join.controllers;
 
+import com.social.join.config.PasswordConfig;
 import com.social.join.dtos.UserCreateRequest;
 import com.social.join.dtos.UserDTO;
 import com.social.join.dtos.UserUpdateRequest;

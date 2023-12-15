@@ -23,6 +23,7 @@ export class EditProfileComponent {
     const payload: any = { 
       id: this.user?.id,
       firstname: this.user.firstname,
+      password: this.user.password,
       lastname: this.user.lastname,
       username: this.user.username,
       email: this.user.email

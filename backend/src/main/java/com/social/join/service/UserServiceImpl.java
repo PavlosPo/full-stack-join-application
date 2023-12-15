@@ -101,16 +101,9 @@ public class UserServiceImpl implements IUserService {
         AtomicReference<Optional<UserDTO>> atomicReference = new AtomicReference<>();
 
         userRepository.findById(userUpdateRequest.getId()).ifPresentOrElse(foundUser -> {
-            System.out.println(userUpdateRequest.getFirstname());
-            System.out.println(userUpdateRequest.getId());
-
-            System.out.println(userUpdateRequest.getPassword());
-            System.out.println(userUpdateRequest.getLastname());
-            System.out.println(userUpdateRequest.getEmail());
-
             foundUser.setFirstname( userUpdateRequest.getFirstname());
             foundUser.setLastname( userUpdateRequest.getLastname());
-            foundUser.setPassword( userUpdateRequest.getPassword());
+            foundUser.setPassword(passwordEncoder.encode(CharBuffer.wrap(userUpdateRequest.getPassword())));
             foundUser.setEmail( userUpdateRequest.getEmail());
 
             System.out.printf(foundUser.getPassword() + foundUser.getEmail() + foundUser.getLastname(),
